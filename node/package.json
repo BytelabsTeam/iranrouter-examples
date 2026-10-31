@@ -1,0 +1,18 @@
+{
+  "name": "iranrouter-examples-node",
+  "private": true,
+  "type": "module",
+  "description": "IranRouter Node.js examples",
+  "scripts": {
+    "chat": "node chat.mjs",
+    "stream": "node stream.mjs",
+    "models": "node models.mjs",
+    "embeddings": "node embeddings.mjs",
+    "images": "node images.mjs",
+    "key": "node check-key.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.0"
+  }
+}
